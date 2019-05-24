@@ -10,5 +10,5 @@ setup(name='configHelper',
       author='Peter Kropf',
       author_email='pkropf@gmail.com',
       url='https://github.com/pkropf/configHelper',
-      packages=['configHelper',],
+      py_modules=['configHelper',],
 )
