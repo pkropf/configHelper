@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 
 setup(name='configHelper',
@@ -10,5 +10,5 @@ setup(name='configHelper',
       author='Peter Kropf',
       author_email='pkropf@gmail.com',
       url='https://github.com/pkropf/configHelper',
-      py_modules=['configHelper',],
+      packages=find_packages(),
 )
