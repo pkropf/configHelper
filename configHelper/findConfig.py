@@ -27,7 +27,7 @@ LOCATIONS=[
     '/etc',
 ]
 
-print(LOCATIONS)
+#print(LOCATIONS)
 
 def findConfig(name, locations=LOCATIONS):
     """look for a configuration file in a series of known locations."""
